@@ -5,5 +5,7 @@ toast = Notification(app_id="WINDOWS",
                      msg="ITS A BUUUG HEEEEEELP!!!!!",
                      icon="C:/notifierPy/error.ico",)
 toast.set_audio(audio.Mail, loop= True)
+toast.add_actions(label="Restart system", 
+                  launch="https://github.com/FranzieYoogan")
 
 toast.show()
