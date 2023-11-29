@@ -6,6 +6,6 @@ toast = Notification(app_id="WINDOWS",
                      icon="C:/notifierPy/error.ico",)
 toast.set_audio(audio.Mail, loop= True)
 toast.add_actions(label="Restart system", 
-                  launch="https://github.com/FranzieYoogan")
+                  launch="C:/notifierPy/shrek.mp4")
 
 toast.show()
